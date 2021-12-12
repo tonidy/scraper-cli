@@ -5,12 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.tonidy.scraper</groupId>
-  <artifactId>webscraper</artifactId>
+  <artifactId>scrapee</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>webscraper</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <name>scrapee</name>
+  <url>https://github.com/tonidy/scraper-cli</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
