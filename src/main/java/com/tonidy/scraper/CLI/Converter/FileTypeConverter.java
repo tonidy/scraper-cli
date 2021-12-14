@@ -1,7 +1,8 @@
-package com.tonidy.scraper.CLI;
+package com.tonidy.scraper.CLI.Converter;
 
 import com.beust.jcommander.IStringConverter;
 import com.beust.jcommander.ParameterException;
+import com.tonidy.scraper.CLI.FileType;
 
 public class FileTypeConverter implements IStringConverter<FileType> {
 

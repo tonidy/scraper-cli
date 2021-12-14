@@ -4,6 +4,8 @@ import java.text.MessageFormat;
 
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.Parameters;
+import com.tonidy.scraper.CLI.Converter.CategoryConverter;
+import com.tonidy.scraper.CLI.Converter.FileTypeConverter;
 
 @Parameters(separators = "=")
 public class Settings {
@@ -11,9 +13,9 @@ public class Settings {
     private boolean help;
     @Parameter(names = { "-t", "--total" }, description = "Number of total products")
     private Integer totalProducts = 100;
-    @Parameter(names = { "-c", "--category" }, description = "Product Category")
+    @Parameter(names = { "-c", "--category" }, description = "Product Category", converter = CategoryConverter.class)
     private Category category = Category.HANDPHONE_TABLET;
-    @Parameter(names = { "-f", "--fileType" }, description = "Output file type format")
+    @Parameter(names = { "-f", "--fileType" }, description = "Output file type format", converter = FileTypeConverter.class)
     private FileType fileType = FileType.CSV;
     @Parameter(names = { "-o", "--output" }, description = "Output file name")
     private String outputFile = "output.csv";
