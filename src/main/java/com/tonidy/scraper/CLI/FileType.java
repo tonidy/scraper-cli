@@ -6,13 +6,13 @@ public enum FileType {
 
     // converter that will be used later
     public static FileType fromString(String code) {
- 
-        for(FileType output : FileType.values()) {
-            if(output.toString().equalsIgnoreCase(code)) {
+
+        for (FileType output : FileType.values()) {
+            if (output.toString().equalsIgnoreCase(code)) {
                 return output;
             }
         }
- 
+
         return null;
     }
 }
