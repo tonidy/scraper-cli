@@ -1,4 +1,4 @@
-package com.tonidy.scraper;
+package com.tonidy.scraper.CLI;
 
 import com.beust.jcommander.IStringConverter;
 import com.beust.jcommander.ParameterException;

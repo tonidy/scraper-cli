@@ -1,4 +1,4 @@
-package com.tonidy.scraper;
+package com.tonidy.scraper.CLI;
 
 public enum FileType {
     CSV,

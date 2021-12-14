@@ -1,6 +1,5 @@
-package com.tonidy.scraper;
+package com.tonidy.scraper.CLI;
 
-import java.io.File;
 import java.text.MessageFormat;
 
 import com.beust.jcommander.Parameter;
