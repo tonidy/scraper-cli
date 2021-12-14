@@ -10,7 +10,7 @@ public class CategoryConverter implements IStringConverter<Category> {
         var convertedValue = Category.fromString(value);
 
         if (convertedValue == null) {
-            throw new ParameterException("Value " + value + "can not be converted to OutputFile.");
+            throw new ParameterException("Value " + value + "can not be converted to Category.");
         }
         return convertedValue;
     }

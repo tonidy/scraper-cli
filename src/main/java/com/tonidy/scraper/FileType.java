@@ -1,13 +1,13 @@
 package com.tonidy.scraper;
 
-public enum OutputFile {
+public enum FileType {
     CSV,
     JSON;
 
     // converter that will be used later
-    public static OutputFile fromString(String code) {
+    public static FileType fromString(String code) {
  
-        for(OutputFile output : OutputFile.values()) {
+        for(FileType output : FileType.values()) {
             if(output.toString().equalsIgnoreCase(code)) {
                 return output;
             }
